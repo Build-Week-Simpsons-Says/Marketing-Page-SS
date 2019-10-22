@@ -206,16 +206,19 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 50%;
   text-align: center;
   background: #FED90F;
   border-radius: 5%;
+  margin-left: 26%;
+  padding-bottom: 2%;
 }
 .intro .btn {
   background: #9c5b01;
   border: 1px solid black;
   color: white;
   font-size: 2rem;
+  margin-top: 1%;
 }
 .intro h2 {
   width: 100%;
@@ -232,6 +235,7 @@ header nav a {
   display: flex;
   justify-content: space-between;
   padding: 3%;
+  margin-bottom: 5%;
 }
 .bottom-quotes p {
   color: white;
