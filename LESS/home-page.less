@@ -3,10 +3,21 @@
     display: flex;
     justify-content: space-between;
     padding:3%;
-    margin-top:10%;
+    margin-top:5%;
+    @media @phone {
+        flex-direction: column;
+        align-content: center;
+    .top-right-quote {
+        display: none;
+    } //end of top right quote for phone   
+    }// End of top quotes section for phone
      p {
         color:white;
         font-size: 2.0rem;
+    @media @phone {
+        text-align: center;
+
+    }//end of p for phone
     }//End of the paragraphs
 }//This is the end of top quotes
 
@@ -21,6 +32,9 @@
     border-radius: 5%;
     margin-left: 26%;
     padding-bottom:2%;
+@media @phone {
+        padding: 3% 0;
+    }//End of intro phone
     .btn{
        background:#9c5b01;
        border: 1px solid black;
@@ -36,6 +50,10 @@
     }
     .intro-p {
     width:50%;
+@media @phone {
+    padding: 4% 0;
+}//End of p phone intro
+    
 
     p {
         text-align: center;
@@ -47,17 +65,39 @@
 .bottom-quotes {
     display: flex;
     justify-content: space-between;
-    padding:3%;
-    margin-bottom:5%;
+    padding:1% 3%;
+    margin-top:3%;
+@media @phone {
+        flex-direction: column;
+        align-content: center;
+.bottom-left-quote{
+    // margin-top: 5%;
+    display: none;
+}//end of bottom left quote        
+.bottom-right-quote {
+        display: none;
+    } //end of bottom right quote for phone   
+    }// End of bottom quotes section for phone
     p {
         color:white;
         font-size: 2.0rem;
+@media @phone {
+        text-align: center;
+    }
     }//End of the paragraphs
     // padding-top:10%;
 }//This is the end of the bottom quotes
 
-footer{
+.family{
     display: flex;
     justify-content: center;
-    background: @bg-color-header;
-}//This is the end of the footer
+    width:400px;
+    height:300px;
+    margin-left: 10%;
+@media @phone{
+    width: 300px;
+    height: 200px;
+    margin-left:17%;
+}    
+}//End of family img
+
