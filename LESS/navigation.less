@@ -1,21 +1,32 @@
 header {
     background: @bg-color-header;
     display: flex;
-    border: 1px solid black;
     width: 100%;
+  
     nav {
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
         width:100%;
-        padding:3%;
+        padding:2% 3%;
+    @media @phone{
+        display: flex;
+        flex-direction: column;
+        h1 {
+            text-align: center;
+            padding-bottom: 3%;
+        }//End of media for h1
+    }//End of media querie for nav
     a {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         text-decoration: none;
-        font-size:1.4rem;
-        
+        font-size:2.0rem;
+    @media @phone{
+        border-bottom: 1px solid #009DDC;
+        font-size: 2.0rem;
+        margin-bottom: 2%;
+    }    
     }//End of links
     }//This is the end of the nav
 }//This is the end of the header
