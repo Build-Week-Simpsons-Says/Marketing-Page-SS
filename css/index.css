@@ -167,7 +167,7 @@ img {
   max-width: 100%;
   margin: 0 auto;
   background: #70D1FE;
-  height: 100vh;
+  height: 100%;
 }
 header {
   background: #FED90F;
@@ -208,7 +208,7 @@ footer {
   display: flex;
   justify-content: center;
   background: #FED90F;
-  margin-bottom: 0%;
+  padding: 2rem;
 }
 .top-quotes {
   display: flex;
@@ -314,4 +314,20 @@ footer {
     height: 200px;
     margin-left: 17%;
   }
+}
+.team {
+  text-align: center;
+  margin: 5% 0;
+  font-size: 5rem;
+}
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2% 3%;
+}
+.main-section .member {
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
 }
